@@ -6,6 +6,7 @@ import Fontisto from 'react-native-vector-icons/Fontisto';
 const HomeScreen = (props) => {
   return (
     <View>
+      {/* Search button */}
       <Pressable
         style={styles.searchButton}
         onPress={() => console.log('Search Btn clicked')}>
@@ -13,11 +14,14 @@ const HomeScreen = (props) => {
         <Text style={styles.searchButtonText}>Where are you going?</Text>
       </Pressable>
 
+      {/* Image */}
       <ImageBackground
         source={require('../../../assets/images/wallpaper.jpg')}
         style={styles.image}>
+        {/* Title */}
         <Text style={styles.title}>Go Near</Text>
 
+        {/* Explore button */}
         <Pressable
           style={styles.button}
           onPress={() => console.log('Explore Btn clicked')}>
