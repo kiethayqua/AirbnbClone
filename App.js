@@ -1,21 +1,12 @@
+import 'react-native-gesture-handler'; // luon import o top
 import React from 'react';
 import {Text, View, SafeAreaView, StatusBar} from 'react-native';
-
-import HomeScreen from './src/screens/Home';
-import SearchResultsScreen from './src/screens/SearchResults';
-import DestinationSearchScreen from './src/screens/DestinationSearch';
-import GuestsScreen from './src/screens/Guests';
-
+import Router from './src/navigation/Router';
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        {/* <HomeScreen /> */}
-        {/* <SearchResultsScreen /> */}
-        {/* <DestinationSearchScreen /> */}
-        <GuestsScreen />
-      </SafeAreaView>
+      <Router />
     </>
   );
 };

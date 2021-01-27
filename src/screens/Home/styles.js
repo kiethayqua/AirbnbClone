@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 30,
     position: 'absolute',
-    top: 15,
+    top: 50,
     zIndex: 100,
   },
   searchButtonText: {
