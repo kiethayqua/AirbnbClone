@@ -112,7 +112,7 @@ const GuestsScreen = (props) => {
           justifyContent: 'center',
         }}
         onPress={() => {
-          navigation.navigate('Search Results');
+          navigation.navigate('SearchResults');
         }}>
         <View>
           <Text
